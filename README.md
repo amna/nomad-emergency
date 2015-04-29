@@ -1,2 +1,2 @@
-# nomad-emergency
+# nomademergency
 the hospital and clinic resource site
