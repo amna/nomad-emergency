@@ -18,12 +18,6 @@
  }
  initialize();
 
-jQuery(function($) {
-    // Asynchronously Load the map API 
-    var script = document.createElement('script');
-    script.src = "http://maps.googleapis.com/maps/api/js?sensor=false&callback=initialize";
-    document.body.appendChild(script);
-});
 
 function initialize() {
     var map;
@@ -33,7 +27,7 @@ function initialize() {
     };
                     
     // Display a map on the page
-    map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+    map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
     map.setTilt(45);
         
     // Multiple Markers
