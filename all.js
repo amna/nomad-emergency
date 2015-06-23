@@ -58,3 +58,5 @@ function initialize() {
     });
     
 }
+
+ initialize();
